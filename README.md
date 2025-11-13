@@ -4,13 +4,13 @@ This repository contains three defensive security projects that demonstrate prac
 
 ## Projects
 
-- **Network Security Monitoring (Zeek and Suricata)**  
+- **[Network Security Monitoring (Zeek and Suricata)](https://github.com/AyrtonHCook/Network-Security-Monitoring)**  
   Offline PCAP assessment using Zeek and Suricata to correlate DNS, LDAP, and HTTP telemetry with IDS alerts.
 
-- **Cloud Security Monitoring (Microsoft Sentinel)**  
+- **[Cloud Security Monitoring (Microsoft Sentinel)](https://github.com/AyrtonHCook/Microsoft-Sentinel)**  
   SIEM onboarding and detection validation using the Azure Monitor Agent, Data Collection Rules, and analytics testing.
 
-- **Windows Memory Forensics (Volatility 3)**  
+- **[Windows Memory Forensics (Volatility 3)](https://github.com/AyrtonHCook/Volatility-3-project)**  
   Memory dump analysis recovering an encoded PowerShell command and reconstructing the execution context.
 
 Each project includes:
