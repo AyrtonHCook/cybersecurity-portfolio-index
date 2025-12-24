@@ -15,7 +15,7 @@ This repository contains three defensive security labs focused on network monito
 
 Each project includes:
 - A reproducible lab setup
-- The investigation workflow and tools used
+- The investigation workflow and tools used 
 - MITRE ATT&CK mapping where applicable
 - Evidence artefacts and screenshots
 - Notes on limitations and next steps
