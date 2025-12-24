@@ -1,37 +1,36 @@
 # Cybersecurity Portfolio Index
 
-This repository contains three defensive security projects that demonstrate practical development across network, SIEM, and host visibility domains. Each lab focuses on a different part of the defender workflow and builds toward a complete visibility triad for incident detection and investigation.
+This repository contains three defensive security labs focused on network monitoring, SIEM detection, and host-based analysis. The work was built to practise investigation workflows rather than tool installation, with each lab focusing on how evidence is collected, analysed, and interpreted during an investigation.
 
 ## Projects
 
 - **[Network Security Monitoring (Zeek and Suricata)](https://github.com/AyrtonHCook/Network-Security-Monitoring)**  
-  Offline PCAP assessment using Zeek and Suricata to correlate DNS, LDAP, and HTTP telemetry with IDS alerts.
+  Analysed offline PCAP data using Zeek and Suricata to correlate DNS, LDAP, and HTTP traffic with IDS alerts and identify suspicious behaviour.
 
 - **[Cloud Security Monitoring (Microsoft Sentinel)](https://github.com/AyrtonHCook/Microsoft-Sentinel)**  
-  SIEM onboarding and detection validation using the Azure Monitor Agent, Data Collection Rules, and analytics testing.
+  Onboarded Windows telemetry into Microsoft Sentinel using the Azure Monitor Agent and Data Collection Rules. Built and tested analytics to validate detection logic and alert behaviour.
 
 - **[Windows Memory Forensics (Volatility 3)](https://github.com/AyrtonHCook/Volatility-3-project)**  
-  Memory dump analysis recovering an encoded PowerShell command and reconstructing the execution context.
+  Analysed a Windows memory dump to recover an encoded PowerShell command and reconstruct the execution context using Volatility 3.
 
 Each project includes:
-- A reproducible lab environment
-- Technical workflow and tooling
-- MITRE ATT&CK mapping
+- A reproducible lab setup
+- The investigation workflow and tools used
+- MITRE ATT&CK mapping where applicable
 - Evidence artefacts and screenshots
-- Skills learned and next steps for improvement
+- Notes on limitations and next steps
 
-## How This Portfolio Fits Together
+## How the labs fit together
 
-The labs progress from:
-1. Observing network-level behaviour  
-2. Detecting malicious activity through SIEM analytics  
-3. Recovering post-execution artefacts in memory  
+The labs cover different stages of an investigation:
+1. Network-level activity and protocol analysis  
+2. Detection and alert validation in a SIEM  
+3. Post-execution artefact recovery from memory  
 
-This layered structure demonstrates capability across host, network, and cloud monitoring which aligns with core blue-team responsibilities in SOC and DFIR roles.
+Together, they demonstrate basic investigation capability across host, network, and cloud telemetry, aligned with junior SOC and DFIR workflows.
 
 ## Author
 
 Ayrton Cook  
-BSc Computer Science with Year in Industry  
-Cybersecurity Focus  
+BSc Computer Science (Year in Industry)  
 University of East Anglia
