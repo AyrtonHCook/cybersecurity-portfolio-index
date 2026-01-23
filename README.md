@@ -10,7 +10,7 @@ This repository contains three defensive security labs focused on network monito
 - **[Cloud Security Monitoring (Microsoft Sentinel)](https://github.com/AyrtonHCook/Microsoft-Sentinel)**  
   Onboarded Windows telemetry into Microsoft Sentinel using the Azure Monitor Agent and Data Collection Rules. Built and tested analytics to validate detection logic and alert behaviour.
 
-- **[Windows Memory Forensics (Volatility 3)](https://github.com/AyrtonHCook/Volatility-3-project)**  
+- **[Windows Memory Forensics (Volatility 3)](https://github.com/AyrtonHCook/Volatility3-Forensics)**  
   Analysed a Windows memory dump to recover an encoded PowerShell command and reconstruct the execution context using Volatility 3.
 
 Each project includes:
